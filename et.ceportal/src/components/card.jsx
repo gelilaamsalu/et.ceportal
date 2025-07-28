@@ -1,5 +1,5 @@
 import React from "react";
-import portalIcon from "../images/portal_svg.svg";
+
 import addisBg from "../images/addis_page1_bg.png";
 import adanechPic from "../images/adanech_pic.jpg";
 
@@ -13,15 +13,6 @@ const Card = () => {
       >
         <div className="relative bottom-14 right-1 bg-gradient-to-b from-[#a6a6a6]/40 to-[#ffffff]/40 rounded-3xl flex justify-center items-center h-30 w-200">
           <h1 className="text-6xl text-center">Welcome to Addis Ababa City</h1>
-        </div>
-        <div className="flex w-screen justify-end p-8">
-          <a>
-            <img
-              className="h-20 w-20"
-              src={portalIcon}
-              alt="City Portal Icon"
-            />
-          </a>
         </div>
       </div>
 

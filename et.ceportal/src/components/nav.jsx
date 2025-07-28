@@ -1,5 +1,5 @@
 import React from "react";
-
+import portalIcon from "../images/logo.jpg";
 function Nav() {
   return (
     <header className="sticky top-0 z-50 flex justify-between items-center w-full bg-[#37393A] p-6">
@@ -9,6 +9,15 @@ function Nav() {
           href="#"
           className="block h-10 w-full bg-cover bg-center bg-no-repeat"
         >
+          <div className="flex w-screen justify-first ">
+            <a>
+              <img
+                className="h-20 w-20"
+                src={portalIcon}
+                alt="City Portal Icon"
+              />
+            </a>
+          </div>
           {/* Optionally put a logo image inside */}
           {/* <img src="/logo.png" alt="Logo" className="h-10" /> */}
         </a>
